@@ -1,0 +1,25 @@
+body table.chesstable {
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    border-collapse: collapse;
+}
+
+body table tbody tr td.whitebox {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    empty-cells: hide;
+}
+
+body table tbody tr td.blackbox {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    empty-cells: hide
+}
+
+body table tbody tr td {
+    text-align: center;
+    font-size: 95px;
+}
